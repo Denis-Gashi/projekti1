@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="icon">
+            <img src="./img/clash.png">
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
+            
+            </ul>
+            </div>
+            <div class="social">
+            
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-youtube"></i>
+            </div>
+
+
+    </header>
+    <div class="container">
+        <div class="img">
+            <img src="./img/wizard2.png">
+            <div class="elixir">
+                <h1>200$</h1>
+            </div>
+          <div class="close">
+            <i class="bi bi-x-circle"></i>
+
+          </div>
+        </div>
+        <div class="img">
+            <img src="./img/giant.png">
+            <div class="elixir">
+                <h1>200$</h1>
+            </div>
+            <div class="close">
+                <i class="bi bi-x-circle"></i>
+    
+              </div>
+        </div>
+        <div class="img">
+            <img src="./img/peka.png">
+            <div class="elixir">
+                <h1>200$</h1>
+            </div>
+            <div class="close">
+                <i class="bi bi-x-circle"></i>
+    
+              </div>
+        </div>
+
+    </div>
+    <footer>
+        <div class="container2">
+            <div class="tekst">
+                <ul>
+                    <h4>lorem</h4>
+                    <br>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li><br>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    
+                    
+
+
+                </ul>
+            </div>
+            
+            <div class="tekst">
+                <ul>
+                    <h4>lorem</h4>
+                    <br>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li><br>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                </ul>
+            </div>
+            <div class="tekst">
+                <ul>
+                    <h4>lorem</h4>
+                    <br>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li><br>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                </ul>
+            </div>
+            <div class="icon2">
+                <img src="./img/pubg.png">
+            </div>
+           
+         
+         
+        </div>
+
+    </footer>
+</body>
+<script>
+    const closeBtn = document.querySelectorAll(".close i");
+    closeBtn.forEach(button=>{
+        button.addEventListener("click", (e)=>{
+            let parent = e.target.closest(".img");
+            parent.style.display="none";
+            
+        })
+    })
+</script>
+</html>

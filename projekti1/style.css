@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+font-family: arial;
+}
+header{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    padding: 1em;
+    align-items: center
+    
+}
+.logo{
+   width: 25%;
+}
+.logo img{
+    width: 150px;
+}
+.nav{
+    width: 50%;
+    
+}
+.nav li a:hover{
+    color: orange;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin: 20px;
+
+}
+.nav ul li a{
+    text-decoration: none;
+    transition: 0.3s ease all;
+    color: #fff;
+}
+.search{
+ width: 25%;   
+
+}
+.search input{
+    background: transparent;
+    padding: 0.5em;
+    color: #fff;
+    border: 0;
+    border-bottom: 1px solid orange;
+    border-left: 1px solid orange;
+    outline: none;
+}
+.search button{
+    padding: 0.5em 1em;
+    background: orange;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    font-family: arial;
+    cursor: pointer;
+    transition: .4s ease background;
+}
+.search button:hover{
+    background: transparent;
+    border-color: orange;
+    color: #fff;
+}
+.search button:active{
+    transform: translateY(1px);
+}
+.active{
+    color: orange!important;
+}
+.container{
+    width: 100%;
+    
+}
+.container img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.content{
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: orange;
+}
+.content h1{
+    padding: 35px 35px 20px 35px;
+}
+
+.side-img{
+    width: 50%;
+}
+.side-img img{
+width: 30%;
+position: absolute;
+top: 30%;
+right: 15%;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.submit{
+    position: absolute;
+    top: 50%;
+    left: 24%;
+}
+.submit button{
+    padding: 15px 30px 15px 30px;
+    background: orange;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-family: arial;
+    cursor: pointer;
+    transition: .4s ease background;
+}
+.submit button:hover{
+    background: transparent;
+    border-color: orange;
+    color: #fff;
+}
+.submit button:active{
+    transform: translateY(1px);}
+    

@@ -1,0 +1,46 @@
+.katrori{
+    width: 500px;
+    height: 500px;
+    background-image: url(../projekti1/img/battlefield-4-archives--wallpaper.png);
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+.katrori img{
+    width: 300px;
+}
+.katrori2,.katrori3{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.katrori2{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.katrori3{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.wrapper{
+    display: flex;
+}
+.katrori4,.katrori5{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+  
+}
+.katrori4{
+ 
+}

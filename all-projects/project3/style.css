@@ -1,0 +1,107 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+header{
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+}
+.logo{
+    padding: 1rem;
+    background-color: whitesmoke;
+    border-radius: 0.4rem;
+    text-align: center;
+    margin-left: 4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+header ul{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+header ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+.container{
+    position: relative;
+    text-align: center;
+}
+.bg-img-wrapper {
+    height: 92vh;
+    background: url(./img/343021.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content-wrapper{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: crimson;
+    line-height: 3rem;
+    text-transform: uppercase;
+}
+button{
+   padding: 0.5rem 3rem;
+   border: 2px solid black;
+   border-radius: 0.5rem;
+   font-weight: bold;
+   cursor: pointer;
+   font-size: 1.2rem;
+   background-color: crimson;
+   transition: 0.3s ease all;
+}
+button:hover{
+    background: transparent;
+
+}
+.about-wrapper{
+    background-color: black;
+    padding: 1rem 10rem 0rem 10rem;
+
+}
+.about{
+    border: 3px solid crimson;
+    padding: 5rem;
+    border-radius: 10rem;
+    margin-top: 1rem ;
+}
+.first-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.about-img{
+    background: url(./img/343021.jpg);
+    padding: 10rem 15rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5rem;
+}
+.first-content p{
+    width: 50%;
+    padding: 5rem 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    border: 2px solid black;
+    font-weight: bold;
+    background-color: grey;
+}
